@@ -1,0 +1,71 @@
+/*RESETEO*/
+
+h2 {
+  font-size: 4.6875rem;
+}
+h3 {
+  font-size: 1.625rem;
+}
+
+/*GENERAL*/
+
+.caja80 {
+  width: 90%;
+}
+.caja802 {
+  width: 90%;
+}
+
+/*MENU*/
+
+.menug .logo-menu {
+  height: 50px;
+  margin-top: 5px;
+}
+/*CABECERAS*/
+
+.cabecera {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/*PIE*/
+
+.pie {
+  padding-top: 18%;
+}
+/* #cuentaatras {
+  width: 35%;
+} */
+/* #btentradas {
+  width: 13%;
+  margin: auto;
+  font-size: 1.5vw;
+  margin-top: 4%;
+} */
+/* #entradas {
+  padding-bottom: 5%;
+}
+#entradas2 {
+  padding-bottom: 5%;
+}
+#poster {
+  top: -13%;
+  width: 38%;
+}
+#programa {
+  font-size: 1.5vw;
+} */
+/* #entradas2 #btentradas {
+  width: 13%;
+  margin: auto;
+  font-size: 1.5vw;
+  margin-top: 4%;
+} */
+
+/*POP ENTRADAS*/
+.entradas-pop {
+  width: 80%;
+  max-width: 400px;
+  height: 200px;
+}

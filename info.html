@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summer Fest</title>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+    <link rel="stylesheet" href="tipografia/sokaqola.css" />
+    <link rel="stylesheet" href="tipografia/turbinado-pro/turbinado-pro.css" />
+    <link rel="stylesheet" href="js/responsive-flip-countdown/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      href="css/estilos-medianos.css"
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width:1280px)"
+    />
+    <link
+      href="css/estilos-tablet.css"
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width:920px)"
+    />
+    <link
+      href="css/estilos-peques.css"
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width:768px)"
+    />
+    <script
+      src="https://kit.fontawesome.com/585dce6de3.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .cabecera {
+        background-image: url(img/cabecera3.jpg);
+      }
+      .cabecera::before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 1);
+        filter: opacity(0.25);
+      }
+      .cabecera h1 {
+        word-spacing: 1.5vw;
+        position: relative;
+        z-index: 3;
+      }
+      .btentradas {
+        width: 60%;
+        z-index: 5;
+      }
+
+      .activ {
+        position: relative;
+      }
+      @media screen and (max-width: 768px) {
+        .btentradas {
+          width: 80%;
+        }
+        .btentradas::after {
+          -webkit-border-radius: 0 50% 0 0;
+          -moz-border-radius: 0 50% 0 0;
+          border-radius: 0 50% 0 0;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="cabecera">
+      <div class="vacio1"></div>
+      <nav class="menug">
+        <div class="caja80">
+          <ul>
+            <li><a href="home.html">Inicio</a></li>
+            <li><a href="info.html" class="current">Información</a></li>
+            <li class="cajalogo-menu">
+              <a href="home.html"
+                ><img class="logo-menu" src="img/summerfest-negro.png" alt=""
+              /></a>
+            </li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li>
+              <a class="menu-entradas">Entradas</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="caja-menumov">
+        <div class="cajalogo-menu-movil">
+          <a href="home.html"
+            ><img class="logomm" src="img/summerfest-negro.png" alt=""
+          /></a>
+        </div>
+        <div class="iconos-ayc">
+          <i id="open" class="fas fa-bars"></i
+          ><i id="close" class="fas fa-times"></i>
+        </div>
+        <nav class="menumov">
+          <ul>
+            <li><a href="home.html">Inicio</a></li>
+            <li><a href="info.html" class="current">Información</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li>
+              <a class="entradas-movil">Entradas</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--<img class="cab" src="img/summerfest-negro.png" alt="">-->
+      <h1 class="caja80">El festival</h1>
+      <svg
+        class="editorial"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28 "
+        preserveAspectRatio="none"
+      >
+        <defs>
+          <path
+            id="gentle-wave"
+            d="M-160 44c30 0 
+  58-18 88-18s
+  58 18 88 18 
+  58-18 88-18 
+  58 18 88 18
+  v44h-352z"
+          />
+        </defs>
+        <g class="parallax1">
+          <use xlink:href="#gentle-wave" x="50" y="3" fill="#3d7f91" />
+        </g>
+        <g class="parallax2">
+          <use xlink:href="#gentle-wave" x="50" y="0" fill="#4d727b" />
+        </g>
+        <g class="parallax3">
+          <use xlink:href="#gentle-wave" x="50" y="9" fill="#37a1a6" />
+        </g>
+        <g class="parallax4">
+          <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff" />
+        </g>
+      </svg>
+    </header>
+    <main>
+      <section class="info">
+        <div class="caja80">
+          <h2>Los días 3, 4 y 5 de Agosto</h2>
+          <div class="contenidoinfo">
+            <div class="textoinfo">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deleniti, laboriosam esse consequuntur eum aliquid architecto
+                beatae, quasi adipisci officia hic deserunt asperiores iure, at
+                numquam sequi! Doloribus amet consectetur assumenda vitae iusto
+                error rem rerum voluptates, aliquam, nisi repellendus voluptas
+                sunt inventore obcaecati magni reiciendis nesciunt dolore,
+                asperiores sed?
+              </p>
+              <p>
+                Repudiandae cupiditate culpa ad alias aspernatur corporis. Rerum
+                modi consequatur voluptate explicabo at voluptas temporibus?
+                Temporibus est sint velit eveniet rem tempora cum, nemo ad
+                obcaecati sapiente vel quia aut optio aliquid, odit. Temporibus
+                atque quas dolorum repudiandae molestiae, ipsa vero architecto
+                exercitationem, libero laboriosam eos soluta quis qui, hic iure?
+              </p>
+            </div>
+            <img class="fotoinfo" class="resp" src="img/dostipos.jpg" alt="" />
+          </div>
+        </div>
+        <div class="limpiar"></div>
+      </section>
+      <section class="actividades">
+        <div class="caja80">
+          <h2>Actividades</h2>
+          <div class="actividad">
+            <div class="activos">
+              <img src="img/icono6.png" alt="" />
+              <h3>Surf</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellat impedit, illo quas repudiandae, minima vitae similique
+                iste quis asperiores ipsa facere harum.
+              </p>
+            </div>
+            <div class="activos">
+              <img src="img/icono2.png" alt="" />
+              <h3>Conciertos</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellat impedit, illo quas repudiandae, minima vitae similique
+                iste quis asperiores ipsa facere harum, doloremque provident
+                atque, odio alias sapiente animi eius!
+              </p>
+            </div>
+            <div class="activos ultimo">
+              <img src="img/icono4.png" alt="" />
+              <h3>Invitados</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellat impedit, illo quas repudiandae, minima vitae similique
+                iste.
+              </p>
+            </div>
+          </div>
+          <a class="btentradas pro">Descarga el programa completo</a>
+        </div>
+      </section>
+      <section class="local">
+        <div class="caja80">
+          <h2>Cómo llegar y contacto</h2>
+          <div class="comollegar">
+            <div class="comollegar-texto">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+                corporis, exercitationem voluptates cupiditate dolorem iste
+                omnis excepturi numquam quisquam porro, accusantium adipisci,
+                incidunt voluptate vel, reprehenderit assumenda eum quae! Modi
+                voluptatibus hic repellendus nesciunt, omnis neque libero id
+                ratione molestiae autem natus quo earum soluta, at blanditiis ut
+                assumenda, rerum.
+              </p>
+            </div>
+            <div class="comollegar-video">
+              <div class="embed-container">
+                <iframe
+                  src="https://www.youtube.com/embed/bBWDpHpMxlk"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="contacto">
+            <div class="contacto-mapa">
+              <div class="embed-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.1296310292555!2d-6.032071525538683!3d36.183224310574616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c40d94367bab9%3A0x99cb874d600ca1cf!2sPlaya%20de%20Mari%20Sucia!5e0!3m2!1ses!2ses!4v1592862863545!5m2!1ses!2ses"
+                  width="300"
+                  height="200"
+                  frameborder="0"
+                  style="border: 0"
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabindex="0"
+                ></iframe>
+              </div>
+            </div>
+            <div class="contacto-texto">
+              <h3>Playa de Mari Sucia</h3>
+              <p>
+                Caños de Meca (Cádiz) <br />Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Distinctio, magni.
+              </p>
+              <p>sumerfest@info.com</p>
+              <p>sumerfest@entradas.com</p>
+              <p><i class="fab fa-whatsapp verde"></i>687593142</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="pie">
+      <div class="caja80">
+        <div class="flexi">
+          <div class="cajalogo-pie">
+            <img class="logo-pie" src="img/summerfest-negro.png" alt="" />
+          </div>
+          <nav class="menu-pie">
+            <ul>
+              <li><a href="home.html">Inicio</a></li>
+              <li><a href="info.html" class="marcado">Información</a></li>
+              <li><a href="multimedia.html">Multimedia</a></li>
+              <li>
+                <a href="https://www.ripcurl.eu/es/" target="_blank"
+                  >Entradas</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="logitoo2">
+            <img class="logo-pie" src="img/summerfest-negro.png" alt="" />
+          </div>
+          <div class="minigal" data-link="multimedia.html">
+            <img class="mini" src="img/mini1.jpg" alt="" />
+            <img class="mini" src="img/mini2.jpg" alt="" />
+            <img class="mini" src="img/mini3.jpg" alt="" />
+            <img class="mini" src="img/mini4.jpg" alt="" />
+            <img class="mini" src="img/mini5.jpg" alt="" />
+            <img class="mini" src="img/mini6.jpg" alt="" />
+            <img class="mini" src="img/mini7.jpg" alt="" />
+            <img class="mini" src="img/mini8.jpg" alt="" />
+          </div>
+
+          <div class="loc">
+            <div class="embed-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.1296310292555!2d-6.032071525538683!3d36.183224310574616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c40d94367bab9%3A0x99cb874d600ca1cf!2sPlaya%20de%20Mari%20Sucia!5e0!3m2!1ses!2ses!4v1592862863545!5m2!1ses!2ses"
+                width="300"
+                height="200"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
+          </div>
+          <div class="redes2">
+            <p>Síguenos en redes sociales:</p>
+            <div class="redes22">
+              <a href="#"
+                ><i class="fab fa-twitter marg tam" title="twitter"></i
+              ></a>
+              <a href="#"><i class="fab fa-instagram marg tam"></i></a>
+              <a href="#"><i class="fab fa-facebook-f marg"></i></a>
+              <a href="#"><i class="fab fa-whatsapp marg tam"></i></a>
+              <a href="#"><i class="fas fa-share-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy">
+        <div class="polis">
+          <a href="#">Condiciones generales de acceso y uso de la web</a>
+          <a href="#">Política de coockies</a>
+          <a class="nob" href="#">Política de privacidad</a>
+        </div>
+      </div>
+      <div class="cajalogo-pie-copy">
+        <img class="logo-pie-copy" src="img/Recurso-1.svg" alt="" />
+        <p>
+          SUMMER FEST
+          <i class="far fa-copyright" title="copyright"></i> 2020
+        </p>
+      </div>
+      <p class="subiendo"><i class="fas fa-chevron-circle-up"></i></p>
+    </footer>
+    <div class="entras-container">
+      <div class="entradas-pop">
+        <p>Entradas no disponibles actualmente.</p>
+        <p>Disculpe las molestias</p>
+        <button class="cerrar"><i class="fas fa-times"></i></button>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/responsive-flip-countdown/jquery.flipper-responsive.js"></script>
+    <script src="js/responsive-flip-countdown/clock.js"></script>
+    <script src="js/subiendo.js"></script>
+    <script src="js/menu-peque.js"></script>
+    <script src="js/entradas.js"></script>
+  </body>
+</html>
