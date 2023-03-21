@@ -12,7 +12,7 @@ Microsite de un festival ficticio, para ofrecer información y promocionar el fe
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
-Con el aprendí poner un vídeo de fondo y que se vea en todos los dispositivos, a asimilar y ver todas las posibilidades de la propiedad flex de CSS, y ha realizar cosas simples con Javascript, y a usar recursos ya creados en JQuery.
+Con el aprendí poner un vídeo de fondo y que se vea en todos los dispositivos, a asimilar y ver todas las posibilidades de la propiedad flex de CSS, a realizar cosas simples con Javascript, y a usar recursos ya creados en JQuery.
 
 Actualmente sé que habría muchas cosas modificables, pero para lo que había estudiado está muy bien, y es un ejemplo para ver mi evolución.
 
